@@ -1,13 +1,40 @@
 #class {
-    background-image: url("https://cdn.glitch.com/a8523ae7-6b48-4657-aa8b-dc72cf4663db%2FP_gHbQAN.jpg?v=1574829386502");
-   background-repeat: no-repeat;
- }
+   background-image: url("https://cdn.glitch.com/a8523ae7-6b48-4657-aa8b-dc72cf4663db%2FP_gHbQAN.jpg?v=1574829386502");
+  background-repeat: no-repeat;
+}
+
+#topHead {
+  position:absolute;
+  top: 180px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 55px;  
+}
+
+#split {
+  height: 90px;
+}
+
+#map{
+  position: fixed;
+  top: 20%;
+  left: 90%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
  
- #topHead {
-   font-size: 55px;  
- }
- 
- #split {
-   height: 60px;
- }
- 
+}
+
+#shortmessage{
+    position:relative;
+  top: 200px;
+   display: block;
+  margin-left: 50px;
+  margin-right: auto;
+  width: 40%;
+  font-size: 25px;  
+  text-align: center;
+  text-shadow: 2px 2px 8px #000000;
+  background-color: white;
+}

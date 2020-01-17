@@ -2,6 +2,56 @@
   height: 10%;
   width: 10%;
 }*/
+#left{
+  left: 20px;
+}
+#discord{
+   position: relative;
+  left: 0px;
+  top: 510px;
+  width: 10%;
+  animation: rotate 1s 2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes rotate {
+  0%   {transform: rotate(20deg);}
+  100%   {transform: rotate(-20deg);}
+}
+
+
+
+
+#steam{
+ position: relative;
+  left: 130px;
+  top: 110px;
+  width: 10%;
+  
+}
+    #moveything {
+      left: 100px;
+      top: 100px;
+  width: 10px;
+  height: 10px;
+  background: black;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+       animation-iteration-count: infinite;
+}
+@keyframes myfirst {
+  0%   {left: 100px; top: 100px;}
+  25%  { left: 400px; top: 100px;}
+  50%  {left: 400px; top: 400px;}
+  75%  { left: 100px; top: 400px;}
+  100% {left: 100px; top: 100px;}
+}
+.widget {
+  position : absolute;
+  right: 50px;
+  top: 700px;
+}
 .top-right {
   position: fixed;
   top: 10%;
@@ -62,7 +112,7 @@ body {
   font-size: 25px;
   text-shadow: 3px 2px black;
   background-color: rgba(204, 229, 255, 0.4);
- 
+  background-shadow: 3px 2px black;
 }
 
 #welcomeText:hover {
@@ -106,6 +156,8 @@ li a:hover {
   text-decoration: none;
 }
 
+.active {
+}
 r .footer {
   padding: 20px;
   text-align: center;
@@ -152,4 +204,8 @@ r .footer {
   background: darkgrey;
   color: white;
   font-size: 30px;
+}
+#gameview {
+  text-align: center;
+  
 }
